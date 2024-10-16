@@ -14,7 +14,7 @@ public class TP2_Bieres_DAUGUET {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        BouteilleBiere uneBiere = new BouteilleBiere() ;
     }
     
 }
