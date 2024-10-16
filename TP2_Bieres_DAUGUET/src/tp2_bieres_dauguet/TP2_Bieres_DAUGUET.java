@@ -15,6 +15,19 @@ public class TP2_Bieres_DAUGUET {
      */
     public static void main(String[] args) {
         BouteilleBiere uneBiere = new BouteilleBiere() ;
+        uneBiere.nom = "Cuvee des trolls";
+        uneBiere.degreAlcool = 7.0 ;
+        uneBiere.brasserie = "Dubuisson";
+        uneBiere.ouverte = false ;
+
+        BouteilleBiere deuxiemeBiere = new BouteilleBiere() ;
+        deuxiemeBiere.nom = "Leffe";
+        deuxiemeBiere.degreAlcool = 6.6 ;
+        deuxiemeBiere.brasserie = "Abbaye de Leffe";
+        deuxiemeBiere.ouverte = true ;
+        
+        uneBiere.lireEtiquette();
+        deuxiemeBiere.lireEtiquette();
     }
     
 }
