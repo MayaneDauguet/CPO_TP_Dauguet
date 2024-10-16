@@ -14,7 +14,7 @@ public class BouteilleBiere {
     String brasserie;  // Le nom de la brasserie
     boolean ouverte;   // Indique si la bouteille est ouverte ou non
     
-    Public void lireEtiquette() {
-        System.out.println("Bouteille de " + nom +" (" + degreAlcool +" degres) \nBrasserie : " + brasserie ) ;
-
+public void lireEtiquette() {
+    System.out.println("Bouteille de " + nom +" (" + degreAlcool +" degres) \nBrasserie : " + brasserie ) ;
+}
 }
