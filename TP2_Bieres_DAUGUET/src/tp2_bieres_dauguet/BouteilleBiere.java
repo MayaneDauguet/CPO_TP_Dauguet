@@ -27,10 +27,10 @@ public class BouteilleBiere {
     public boolean decapsuler() {
     if (ouverte != true) {  // Si la bouteille n'est pas ouverte
         ouverte = true;  // On la décapsule (on met ouverte à true)
-        System.out.println("La bière a été décapsulée.");
+        System.out.println("La biere a ete decapsulee.");
         return true;  // Indique que l'opération a réussi
     } else {  // Si la bouteille est déjà ouverte
-        System.out.println("Erreur : bière déjà ouverte.");
+        System.out.println("Erreur : biere déjà ouverte.");
         return false;  // Indique que l'opération a échoué
     }
 }

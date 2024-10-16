@@ -26,6 +26,11 @@ public class TP2_Bieres_DAUGUET {
         deuxiemeBiere.lireEtiquette();
         troisiemeBiere.lireEtiquette();
         quatriemeBiere.lireEtiquette();
+        
+        boolean resultat;
+        resultat = uneBiere.decapsuler();
+        System.out.println("Decapsulage reussi ? " + resultat);
+        
     }
     
 }
