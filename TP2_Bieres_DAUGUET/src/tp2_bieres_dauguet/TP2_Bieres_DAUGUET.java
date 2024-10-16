@@ -14,20 +14,18 @@ public class TP2_Bieres_DAUGUET {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        BouteilleBiere uneBiere = new BouteilleBiere() ;
-        uneBiere.nom = "Cuvee des trolls";
-        uneBiere.degreAlcool = 7.0 ;
-        uneBiere.brasserie = "Dubuisson";
-        uneBiere.ouverte = false ;
+        BouteilleBiere uneBiere = new BouteilleBiere("Cuvée des trolls",7.0,"Dubuisson") ;
 
-        BouteilleBiere deuxiemeBiere = new BouteilleBiere() ;
-        deuxiemeBiere.nom = "Leffe";
-        deuxiemeBiere.degreAlcool = 6.6 ;
-        deuxiemeBiere.brasserie = "Abbaye de Leffe";
-        deuxiemeBiere.ouverte = true ;
+        BouteilleBiere deuxiemeBiere = new BouteilleBiere("Leffe",6.6,"Abbaye de Leffe") ;
+      
+        BouteilleBiere troisiemeBiere = new BouteilleBiere("Desperados",9.0,"Tire bouchon") ;
+        
+        BouteilleBiere quatriemeBiere = new BouteilleBiere("Heinken",5.0,"Novelty") ;
         
         uneBiere.lireEtiquette();
         deuxiemeBiere.lireEtiquette();
+        troisiemeBiere.lireEtiquette();
+        quatriemeBiere.lireEtiquette();
     }
     
 }
