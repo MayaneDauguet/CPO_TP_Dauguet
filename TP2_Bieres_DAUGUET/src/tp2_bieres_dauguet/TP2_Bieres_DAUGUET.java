@@ -15,6 +15,7 @@ public class TP2_Bieres_DAUGUET {
      */
     public static void main(String[] args) {
         BouteilleBiere uneBiere = new BouteilleBiere("Cuvée des trolls",7.0,"Dubuisson") ;
+        System.out.println(uneBiere);
 
         BouteilleBiere deuxiemeBiere = new BouteilleBiere("Leffe",6.6,"Abbaye de Leffe") ;
       
