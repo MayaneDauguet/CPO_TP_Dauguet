@@ -9,5 +9,10 @@ package tp2_manip_dauguet;
  * @author daugu
  */
 public class Moussaka {
+    int nbCalories ; 
+
+    public Moussaka(int nbCalories) {
+        this.nbCalories = nbCalories;
+    }
     
 }

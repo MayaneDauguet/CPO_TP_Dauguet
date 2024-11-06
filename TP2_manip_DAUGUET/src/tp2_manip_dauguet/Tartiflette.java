@@ -9,5 +9,10 @@ package tp2_manip_dauguet;
  * @author daugu
  */
 public class Tartiflette {
+    int nbCalories ;
+
+    public Tartiflette(int nbCalories) {
+        this.nbCalories = nbCalories;
+    }
     
 }
