@@ -8,27 +8,27 @@ package tp3_herioc_fantasy_dauguet;
  *
  * @author daugu
  */
-public class Epee extends Arme {
-    private int finesse;
+public class Baton extends Arme {
+    private int age;
 
     // Constructeur
-    public Epee(String nom, int niveauAttaque, int finesse) {
+    public Baton(String nom, int niveauAttaque, int age) {
         super(nom, niveauAttaque);  // Appel du constructeur de la classe parente Arme
-        if (finesse >= 0 && finesse < 100) {
-            this.finesse = finesse;
+        if (age >= 0 && age < 100) {
+            this.age = age;
         } else {
-            throw new IllegalArgumentException("La finesse doit être comprise entre 0 et 99.");
+            throw new IllegalArgumentException("L'âge doit être compris entre 0 et 99.");
         }
     }
 
-    // Accesseur pour la finesse
-    public int getFinesse() {
-        return finesse;
+    // Accesseur pour l'âge
+    public int getAge() {
+        return age;
     }
 
     // Redéfinition de la méthode toString
     @Override
     public String toString() {
-        return super.toString() + ", finesse=" + finesse + '}';
+        return super.toString() + ", âge=" + age + '}';
     }
 }
