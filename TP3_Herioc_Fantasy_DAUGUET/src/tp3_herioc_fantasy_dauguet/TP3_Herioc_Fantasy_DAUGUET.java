@@ -8,6 +8,9 @@ package tp3_herioc_fantasy_dauguet;
  *
  * @author daugu
  */
+import Arme.Baton;
+import Arme.Arme;
+import Arme.Epee;
 import java.util.ArrayList;
 public class TP3_Herioc_Fantasy_DAUGUET {
 
